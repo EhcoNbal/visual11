@@ -1,0 +1,38 @@
+/* 리셋 reset */
+*{ margin: 0; padding:0; 
+list-style: none; color:#333;
+font-family: "맑은 고딕"; }
+
+a{ color:inherit; text-decoration: none;}
+
+button{ cursor: pointer;}
+
+/* 리셋 끗 */
+
+body { background-color: #fff; font:20px; }
+.header{ width: 1366px; height: 70px; background-color: lemonchiffon;
+        margin: 0 auto;}
+.logo{ float: left; }
+.menu{ float: left; }
+.menu>ul{ margin-left: 200px; }
+.menu>ul>li{ float: left; text-align: center;
+width: 200px; height: 40px; line-height: 40px; margin-top: 30px; }
+
+.menu>ul>li:hover{ background-color: lightblue; color: #14a; }
+/* 
+.menu>ul>li{ float: left; text-align: center;
+    width: 200px; height: 40px; }
+     */
+
+   
+.contents{ width: 1366px; height: 1200px; background-color: rgb(28, 218, 186);
+    margin: 0 auto;}
+
+.imgslide{width: 1366px; height: 900px; overflow: hidden;}
+.imgslide img{ width: 100%;}
+
+.infos{}
+
+footer{ width: 1366px; height: 100px; background-color: rgb(110, 110, 110);
+    margin: 0 auto;}
+
